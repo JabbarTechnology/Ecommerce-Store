@@ -10,8 +10,9 @@ header {
     color: #fff;
     padding: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
+    
 }
 
 header h1 {
@@ -33,10 +34,11 @@ nav ul {
 
 .list {
     margin: 0 10px;
+    background-color: #8d99ae;
 }
 
 a {
-    color: #fff;
+    color:#2b2d42;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -77,7 +79,7 @@ h2 {
 }
 
 .product {
-    flex: 0 0 calc(30% - 10px);
+    flex: 0 0 calc(32% - 10px);
     background-color: #8d99ae;
     margin: 10px 0;
     padding: 20px;
@@ -129,7 +131,15 @@ h2 {
     justify-content: space-between;
     margin: 5px 0;
 }
-
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
 .checkout-button {
     background-color: #2b2d42;
     color: #fff;
