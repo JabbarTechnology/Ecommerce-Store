@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2b2d42;;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#8d99ae;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #edf2f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #2b2d42;
+}
+#home {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.products {
+    margin: 20px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 0 0 calc(30% - 10px);
+    background-color: #8d99ae;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.price {
+    font-size: 20px;
+    color: #2b2d42;
+}
+
+.add-to-cart {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #edf2f4;
+    
+    color: #2b2d42;
+}
+
+.cart {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:  #edf2f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #2b2d42;
+}
+
+.cart h2 {
+    font-size: 24px;
+}
+
+.cart-summary p {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.checkout-button {
+    background-color: #2b2d42;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #8d99ae;
+    color: #2b2d42;;
+}
+
+footer {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
