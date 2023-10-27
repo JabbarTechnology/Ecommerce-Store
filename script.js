@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const tax = subtotal * taxRate;
         const total = subtotal - tax;
 
-        document.getElementById('tax').textContent = `Tax: $${tax.toFixed(2)}`;
-        document.getElementById('total').textContent = `Total: $${total.toFixed(2)}`;
+        document.getElementById('tax').textContent = `$${tax.toFixed(2)}`;
+        document.getElementById('total').textContent = `$${total.toFixed(2)}`;
     }
 
     addToCartButtons.forEach(function (button, index) {
